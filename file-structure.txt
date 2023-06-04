@@ -1,0 +1,35 @@
+- project/
+  |- node_modules/       (automatically generated, contains installed dependencies)
+  |- server/             (server-side code directory)
+     |- config/          (server configuration files)
+        |- index.js      (main server configuration file)
+     |- controllers/     (API request handlers)
+        |- chat.js       (chat-related controller)
+        |- ...
+     |- models/          (MongoDB data models or schemas)
+        |- user.js       (user model)
+        |- ...
+     |- routes/          (API routes)
+        |- api.js        (main API route)
+        |- ...
+     |- services/        (additional server-side services)
+        |- socket.js     (Socket.IO related service)
+        |- ...
+     |- app.js            (main server application file)
+  |- client/             (client-side code directory)
+     |- public/          (static files directory)
+        |- index.html    (main HTML file)
+        |- ...
+     |- src/             (client-side source code)
+        |- components/   (React components)
+           |- Chat.js    (chat-related component)
+           |- ...
+        |- services/     (client-side services)
+           |- socket.js  (Socket.IO client-side service)
+           |- ...
+        |- App.js        (main React component)
+        |- index.js      (entry point for React rendering)
+        |- ...
+  |- .gitignore          (list of files and directories to ignore in version control)
+  |- package.json        (project metadata and dependencies)
+  |- README.md           (project documentation)
